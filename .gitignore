@@ -1,0 +1,180 @@
+# =========================================================
+# 🔒 SECURITY / SECRETS
+# =========================================================
+
+# ENV Files
+.env
+.env.*
+!.env.example
+
+# Secret Keys
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Supabase
+.supabase/
+supabase/.temp/
+supabase/.branches/
+supabase/.cache/
+supabase/.env
+supabase/.env.*
+supabase/generated/
+
+# Firebase
+firebase-adminsdk*.json
+serviceAccountKey.json
+.firebase/
+
+# Google Cloud / AWS / Azure
+*.credentials
+.aws/
+.azure/
+.gcp/
+
+# Vercel / Netlify / Cloudflare
+.vercel/
+.netlify/
+.wrangler/
+.dev.vars
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================================================
+# 📦 DEPENDENCIES
+# =========================================================
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# =========================================================
+# 🏗 BUILD FILES
+# =========================================================
+dist/
+build/
+out/
+release/
+debug/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# =========================================================
+# 🧾 LOGS
+# =========================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================================================
+# 💻 OS FILES
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# 🛠 IDE / EDITOR
+# =========================================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*.sw?
+*.tmp
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================================================
+# 🧪 TESTING
+# =========================================================
+.cypress/
+playwright-report/
+test-results/
+
+# =========================================================
+# 🐳 DOCKER
+# =========================================================
+.docker/
+Dockerfile.local
+docker-compose.override.yml
+
+# =========================================================
+# 📁 ARCHIVES
+# =========================================================
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# =========================================================
+# 📱 MOBILE / REACT NATIVE
+# =========================================================
+.expo/
+android/app/build/
+ios/build/
+
+# =========================================================
+# 🔥 TEMP FILES
+# =========================================================
+tmp/
+temp/
+*.local
+
+# =========================================================
+# 🔐 EXTRA SECURITY
+# =========================================================
+
+# Prevent accidental uploads
+secret.txt
+passwords.txt
+tokens.txt
+backup.sql
+dump.sql
+
+# Mac hidden files
+._*
+
+# Linux hidden temp
+*~
+
+# Windows crash dump
+*.stackdump
